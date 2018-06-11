@@ -1,0 +1,51 @@
+.special-bg-block {
+    // height: 615px;
+    display: flex;
+    flex-direction: row;
+}
+
+.background-icon {
+    width: 30%;
+    background-color: #e9e9e9;
+    position: relative;
+    
+    @media (max-width: 940px) {
+        display: none;
+    }
+}
+
+.background-icon:after {
+    display: block;
+    width: 190px;
+    height: 100%;
+    position: absolute;
+    content: '';
+    background-image: url(../img/bg/relax-gear-img.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    right: 0;
+    top: 0;
+}
+
+.background-photo {
+    width: 70%;
+    background-image: url(../img/bg/relax-img.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+
+    @media (max-width: 940px) {
+        width: 100%;
+    }
+}
+
+.special-bg-block-content {
+    padding: 100px;
+    width: 700px;
+    color: #cccccc;
+
+    @media (max-width: 940px) {
+        width: 100%;
+        padding: 35px 15px;
+    }
+}
