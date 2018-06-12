@@ -73,6 +73,12 @@ body {
 .margin-bottom-50 {
   margin-bottom: 50px;
 }
+.text-center {
+  text-align: center;
+}
+.relative {
+  position: relative;
+}
 .logo-holder {
   width: 220px;
   padding-top: 45px;
@@ -433,6 +439,33 @@ body {
 }
 .latest-project-content a:hover {
   color: #7cc576;
+}
+.cv-icon {
+  padding-bottom: 25px;
+}
+.cv-icon:before {
+  content: '';
+  border-bottom: 1px solid #777;
+  width: 170px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: 220px;
+}
+.cv-icon:after {
+  content: '';
+  border-bottom: 1px solid #777;
+  width: 170px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  right: 230px;
+}
+.cv-text {
+  color: #777;
+  letter-spacing: -0.5px;
+  font-size: 14px;
+  padding-top: 10px;
 }
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
