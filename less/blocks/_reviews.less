@@ -1,0 +1,51 @@
+.cl-review {
+    overflow: hidden;
+}
+
+.review-content {
+    width: 630px;
+}
+
+.cl-review:nth-child(2n+1) {
+
+
+    .icon-client {
+        float: left;
+    }
+
+    .review-content {
+        float: right;
+        margin-top: 50px;
+    }
+}
+
+.cl-review:nth-child(2n) {
+
+
+    .icon-client {
+        float: right;
+    }
+
+    .review-content {
+        float: left;
+        margin-top: 50px;
+    }
+}
+
+.cl-review + .cl-review {
+    margin-top: 50px;
+}
+
+.review-content p {
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 22px;
+    color: #777;
+}
+
+.cl-name {
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #7cc576;
+    margin-bottom: 10px;
+}

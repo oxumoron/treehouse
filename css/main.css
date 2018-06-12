@@ -79,6 +79,9 @@ body {
 .relative {
   position: relative;
 }
+.bg-grey {
+  background-color: #f9f9f9;
+}
 .logo-holder {
   width: 220px;
   padding-top: 45px;
@@ -466,6 +469,41 @@ body {
   letter-spacing: -0.5px;
   font-size: 14px;
   padding-top: 10px;
+}
+.cl-review {
+  overflow: hidden;
+}
+.review-content {
+  width: 630px;
+}
+.cl-review:nth-child(2n+1) .icon-client {
+  float: left;
+}
+.cl-review:nth-child(2n+1) .review-content {
+  float: right;
+  margin-top: 50px;
+}
+.cl-review:nth-child(2n) .icon-client {
+  float: right;
+}
+.cl-review:nth-child(2n) .review-content {
+  float: left;
+  margin-top: 50px;
+}
+.cl-review + .cl-review {
+  margin-top: 50px;
+}
+.review-content p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 22px;
+  color: #777;
+}
+.cl-name {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  color: #7cc576;
+  margin-bottom: 10px;
 }
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
