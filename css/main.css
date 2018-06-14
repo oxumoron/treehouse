@@ -236,6 +236,9 @@ body {
   text-transform: uppercase;
   text-shadow: 0px 1px 1px #22811a;
 }
+.btn:hover {
+  background-color: yellowgreen;
+}
 .heading-block {
   margin-bottom: 80px;
   text-align: center;
@@ -526,6 +529,10 @@ body {
 }
 .partners img {
   vertical-align: middle;
+  border: 2px solid #fff;
+}
+.partners img:hover {
+  border-color: yellowgreen;
 }
 .partners a + a {
   margin-left: 50px;
@@ -573,6 +580,14 @@ body {
 .social {
   display: flex;
 }
+.icon-circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #222222;
+  display: inline-block;
+  width: 40px;
+  line-height: 40px;
+}
 .social span {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
@@ -589,6 +604,10 @@ body {
   align-items: center;
   padding: 0;
   padding-left: 120px;
+}
+.social ul li a:hover {
+  border-color: yellowgreen;
+  background-color: yellowgreen;
 }
 .social ul li + li {
   margin-left: 10px;

@@ -2,6 +2,16 @@
     display: flex;
 }
 
+.icon-circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #222222;
+
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+}
+
 .social span {
     font-family: Montserrat,sans-serif;
     font-size: 14px;
@@ -19,8 +29,14 @@
     align-items: center;
     padding: 0;
     padding-left: 120px;
+
+    li a:hover {
+        border-color: yellowgreen;
+        background-color: yellowgreen;
+    }
 }
 
 .social ul li + li {
     margin-left: 10px;
 }
+
