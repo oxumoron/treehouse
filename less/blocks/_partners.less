@@ -1,5 +1,17 @@
 .partners {
-    padding: 60px 0; 
+    padding: 60px 0;
+
+    @media (max-width: 940px) {
+        display: flex;
+        flex-direction: column; 
+    }
+}
+
+.partners a {
+
+    @media (max-width: 940px) {
+        align-items: center; 
+    }
 }
 
 .partners img {
@@ -13,4 +25,8 @@
 
 .partners a + a {
     margin-left: 50px;
+
+    @media (max-width: 940px) {
+        margin-left: 0; 
+    }
 }

@@ -1,3 +1,10 @@
+.late_project .heading-block {
+    
+    @media (max-width: 940px) {
+        margin-bottom: 40px;
+    }
+}
+
 .latest-project {
     display: flex;
     flex-direction: row;
@@ -7,10 +14,14 @@
 }
 
 .latest-project-content {
-    width: 530px;
+    max-width: 530px;
     position: absolute;
     top: 0;
     right: 800px;
+    @media (max-width: 940px) {
+        position: unset;
+        text-align: center;
+    }
 }
 
 .latest-project-bg {
@@ -21,12 +32,19 @@
     right: -900px;
     background: url(../img/bg/latest-project-img.png);
     background-repeat: no-repeat;
+    @media (max-width: 940px) {
+        display: none;
+    }
 }
 
 .latest-project-list {
     list-style-type: none;
     display: inline-block;
     padding: 0;
+
+    @media (max-width: 940px) {
+        margin: 0;
+    }
 }
 
 .latest-project-features {

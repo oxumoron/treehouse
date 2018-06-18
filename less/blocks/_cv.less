@@ -1,3 +1,19 @@
+.culture {
+
+    @media (max-width: 940px) {
+        padding: 0;
+    }
+    
+}
+
+.culture .heading-block {
+
+    @media (max-width: 940px) {
+        margin-bottom: 0;
+    }
+
+}
+
 .cv-icon {
     padding-bottom: 25px;
 
@@ -10,6 +26,10 @@
         position: absolute;
         top: -50px;
         left: 220px;
+
+        @media (max-width: 940px) {
+            display: none;
+        }
     }
 
     &:after {
@@ -21,7 +41,19 @@
         position: absolute;
         top: -50px;
         right: 230px;
+
+        @media (max-width: 940px) {
+            display: none;
+        }
     }
+}
+
+.culture .container .row .col-1-of-3 {
+
+    @media (max-width: 940px) {
+        margin-bottom: 15px;
+    }
+
 }
 
 .cv-text {
@@ -30,4 +62,5 @@
     font-size: 14px;
     padding-top: 10px;
 }
+
 
